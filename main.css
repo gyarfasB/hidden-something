@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+  }
+#clock {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    /*-- a szöveg elcsúcsik vertikálisan, 
+    ezért kell a felső margó , ami a betűméret fele!--*/
+    font-size: 68px;
+    margin-top: -34px;
+}
+body{
+    font-family: 'Fira Code', monospace;
+}
+#clock:hover{
+    color:#008F11;
+    transition: 1.6s;
+}
+#line-1 {
+    color:#008F11;
+    text-align: center;
+    position: relative;
+    top: 15%;
+    height:9px;
+    border-radius:9px;
+}
+#line-2 {
+    color: #008F11;
+    text-align: center;
+    position: relative;
+    top: 75%;
+    height:9px;
+    border-radius:9px;
+}
