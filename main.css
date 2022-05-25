@@ -19,7 +19,7 @@ body{
 }
 #clock:hover{
     color:#008F11;
-    transition: 1.6s;
+    /*-- transition: 0.6s; --*/
 }
 #line-1 {
     color:#008F11;
